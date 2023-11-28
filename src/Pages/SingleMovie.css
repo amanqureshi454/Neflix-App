@@ -1,0 +1,6 @@
+.related__movies_container {
+  overflow: scroll;
+}
+.related__movies_container::-webkit-scrollbar {
+  display: none;
+}

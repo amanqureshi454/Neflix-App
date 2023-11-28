@@ -1,38 +1,209 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; /* Example usage in CSS */
+  font-family: "Open Sans", sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 768px) {
+  .nav-lg {
+    display: none;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .hidden-lg {
+    display: block;
   }
-  to {
-    transform: rotate(360deg);
+  #searchbox {
+    width: 320px;
+  }
+  .navbar img {
+    width: 150px;
+    height: 40px;
+  }
+  .small-devices {
+    display: block;
+    display: flex !important;
+  }
+  .feature_1 {
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .left_img {
+    padding-top: 0px;
+  }
+  #linebottom {
+    margin-top: 50px;
+  }
+  .faq h1 {
+    font-size: 30px;
+  }
+  .bottom {
+    padding: 20px;
+  }
+  .nav {
+    padding: 0;
+  }
+  .header {
+    background-size: cover;
+  }
+  .email-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .headercontent {
+    min-height: 800px;
+  }
+  #searchbox2 {
+    width: 350px;
+  }
+  .footer {
+    height: auto !important;
+  }
+  .movie__name {
+    font-size: 2rem;
+  }
+  .contect-hero {
+    width: 350px;
+  }
+  .btn-1 {
+    min-width: 150px;
+  }
+  .img-movie {
+    width: 310px;
+    height: 200px;
+  }
+  .descrption {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .title_movie,
+  .rating {
+    font-size: 2rem;
+  }
+  .info {
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
+  .related__movies_container {
+    gap: 0rem;
+  }
+  .related__movies_container > .movie__box > .img-movie {
+    width: 310px;
+    height: 180px;
+  }
+  .hover {
+    top: 2rem;
+    width: 25px;
+    height: 25px;
+  }
+  .smaller-devices-scroll-container {
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+    border-bottom: 1px solid #ffffff; /* Adjust as needed */
+  }
+  .overview {
+    font-size: 1rem;
+    white-space: nowrap;
+  }
+  .overview_details_scroolbar {
+    overflow: scroll;
+    width: 100%;
+  }
+  .overview_details_scroolbar::-webkit-scrollbar {
+    display: none;
+  }
+  .single__movie {
+    margin-top: 8rem;
+  }
+  .text-primary {
+    color: #5a8dee !important;
+  }
+  /* .btn-primary {
+    border-color: #5a8dee !important;
+    background-color: #5a8dee !important;
+    color: #fff;
+  } */
+  .hero-container {
+    padding-right: 1.75rem;
+  }
+  .shadow-md {
+    box-shadow: 0px 5px 10px rgba(90, 116, 148, 0.3);
+  }
+  .navbar {
+    border-radius: 5px;
+  }
+  .sidebar {
+    width: 280px;
+    min-height: 100vh;
+    box-shadow: 0px 4px 8px rgb(0 0 0 / 16%);
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    z-index: 1;
+    transition: 0.5s;
+  }
+  .sidebar.active {
+    left: 0;
+  }
+  .sd-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  .sidebar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .sidebar-overlay.active {
+    opacity: 1;
+    visibility: visible;
+  }
+  .sd-body {
+    padding: 15px;
+    max-height: calc(100vh - 67px);
+    overflow-x: hidden;
+  }
+  .sd-body ul {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  .sd-body ul li {
+    list-style: none;
+    margin-bottom: 8px;
+  }
+  .sd-body ul li .sd-link {
+    display: inline-block;
+    width: 140px;
+    padding: 10px 16px;
+    color: #fff;
+    background-color: #24262b;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+  }
+  .sd-body ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+  }
+  .showcase-content {
+    width: 100%;
   }
 }

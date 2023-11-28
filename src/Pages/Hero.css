@@ -1,0 +1,42 @@
+.main-hero-img {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+  /* background: rgb(2, 0, 36);
+  background: linear-gradient(
+      341deg,
+      rgba(2, 0, 36, 0.46551120448179273) 0%,
+      rgba(54, 53, 53, 0.7792366946778712) 100%,
+      rgba(56, 58, 58, 1) 100%
+    ),
+    url(https://assets.nflxext.com/ffe/siteui/vlv3/530fc327-2ddb-4038-a3f0-2da2d9ccede1/9c547c8a-e707-4bdb-bdbc-843f134dd2a6/IN-en-20230619-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  background-size: 100%; */
+  padding: 10px 8px;
+  /* background-repeat: no-repeat; */
+}
+.btn-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  min-width: 180px;
+  max-width: 240px;
+  padding: 10px;
+  margin-right: 1rem;
+  font-family: "Roboto";
+  font-size: large;
+  border-radius: 6px;
+  font-weight: 500;
+  text-align: center;
+  height: 50px;
+}
+.contect-hero {
+  width: 850px;
+}
+/* .descrption {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  height: 50px;
+  width: 300px;
+}  */
