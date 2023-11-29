@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Neflix-App/static/css/main.30736940.css",
+    "main.js": "/Neflix-App/static/js/main.92bdec67.js",
+    "static/js/787.80bcc80f.chunk.js": "/Neflix-App/static/js/787.80bcc80f.chunk.js",
+    "index.html": "/Neflix-App/index.html",
+    "main.30736940.css.map": "/Neflix-App/static/css/main.30736940.css.map",
+    "main.92bdec67.js.map": "/Neflix-App/static/js/main.92bdec67.js.map",
+    "787.80bcc80f.chunk.js.map": "/Neflix-App/static/js/787.80bcc80f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30736940.css",
+    "static/js/main.92bdec67.js"
+  ]
+}
