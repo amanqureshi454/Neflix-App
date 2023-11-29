@@ -69,7 +69,8 @@
   .btn-1 {
     min-width: 150px;
   }
-  .img-movie {
+  .img-movie,
+  .movie__box {
     width: 310px;
     height: 200px;
   }

@@ -105,7 +105,7 @@ const Navbar = () => {
                   <CiMenuFries size={30} onClick={ToggleSidebar} />
                   <Link to="/whishlist" className="heart">
                     <FaHeart className="hover-heart relative" size={25} />
-                    <span className="count text-center absolute rounded-full text-[10px] bg-red-800 text-white top-[36%] h-[15px] w-[16px] right-[3%]">
+                    <span className="count text-center absolute rounded-full text-[10px] bg-red-800 text-white top-[36%] h-[15px] w-[16px] right-[4%]">
                       {movieSubs.length}
                     </span>
                   </Link>
